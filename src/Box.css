@@ -1,0 +1,11 @@
+.Box {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.Box-delete {
+  cursor: context-menu;
+  position: relative;
+  top: -25px;
+  right: 5px;
+}
