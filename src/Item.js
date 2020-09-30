@@ -1,6 +1,7 @@
 import React from "react";
 
 const Item = ({ id, todo, number, deleteItem }) => {
+  //
   return (
     <li data-testid={`Item${number}`} className="Item" id={id}>
       {todo}
